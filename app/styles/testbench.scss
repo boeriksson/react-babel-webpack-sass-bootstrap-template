@@ -1,0 +1,32 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #222222;
+
+body {
+  font: $font-stack;
+  color: $primary-color;
+
+  .selectAddressResult {
+    cursor: pointer;
+    font-size: 2em;
+  }
+
+  .displayArea {
+    border: 1px solid black;
+  }
+
+  .react-autosuggest {
+    font-size: 1.2em;
+    .react-autosuggest__suggestion {
+      cursor: pointer;
+    }
+    .react-autosuggest__suggestion:hover {
+      background-color: rgba(50, 210, 255, 0.4);
+    }
+    input {
+      width: 100%;
+    }
+  }
+}
